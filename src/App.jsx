@@ -16,8 +16,8 @@ function App() {
   return (
     <>
       <div className="converter-form">
-        <Input label={"Amount"} onChange={onChange}/>
 
+        <Input label={"Amount"} onChange={onChange}/>
         <div className="row">
           <Select label={"From"} onChange={onChange} items={units} />
           <Select label={"To"} onChange={onChange} items={units} />
